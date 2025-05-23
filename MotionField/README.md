@@ -10,7 +10,7 @@ Then, I used calcOpticalFlowPyrLK() to ﬁnd points in the next frame and determ
 between the corresponding features. Furthermore, whenever the number of points was
 less than 300, I called the goodFeaturesToTrack() function again to get 400 features.
 
-After some ﬁne tuning, I got desirable results. The video can be found at the link: [![Watch the video](https://youtu.be/ﬁKHSfZHYAA/0.jpg)](https://youtu.be/ﬁKHSfZHYAA). I found that the most optimal number of frames to skip was
+After some ﬁne tuning, I got desirable results. The video can be found at the link: [![Watch the video](https://youtu.be/fiKHSfZHYAA/0.jpg)](https://youtu.be/fiKHSfZHYAA). I found that the most optimal number of frames to skip was
 5. This was small enough for the features to be close to each other, but far enough to allow
 us to visualize the movement. I also used a pyramid level of 5 and window size of (21 x 21).
 Both parameters were chosen after testing various values. To my surprise, they did not
