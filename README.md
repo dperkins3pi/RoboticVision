@@ -35,6 +35,17 @@ This approach provided a simple yet effective way to model motion and depth perc
   <img src="TimeToImpact/Features_Found/frame_17_all_features.jpg" alt="Sample Image" width="400"/>
 </p>
 
+# Image Classification
+For this task, the goal was to classify various fish species and oyster shells. Since I am already familiar with YOLO, I chose to use a ResNet50. Sample images and results for the fish classification are below:
+
+<p align="center">
+  <img src="ImageClassification/Fish.png" alt="Sample Image" width="400"/>
+</p>
+
+<p align="center">
+  <img src="ImageClassification/conf_mat_fish.png" alt="Confusion Matrix" width="400"/>
+</p>
+
 # openCV_Intro
 This project was an intro to OpenCV. I learned how to use various openCV functions in real time, such as edge detection, line detection, corner detection, absolute difference, and contour maps. Also, I used these functions to detect images of a launched baseball.
 
