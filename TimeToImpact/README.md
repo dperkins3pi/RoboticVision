@@ -17,7 +17,7 @@ This approach provided a simple yet effective way to model motion and depth perc
 
 The project and results are also explained in the pdf file below:
 
-[📄 View Project Report (PDF)](./report.pdf)
+[📄 View Project Report (PDF)](TimeToImpact.pdf)
 
 # Task 1
 
