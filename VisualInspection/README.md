@@ -27,6 +27,8 @@ We recorded our own dataset by filming Babybel cheese moving on a conveyor belt 
 - Performed well in **real-time classification tasks**
 - Accuracy was highly sensitive to lighting conditions, emphasizing the need for more robust data or controlled environments
 
+![alt text](conf_mat.png)
+
 ## Technologies Used
 
 - Python
