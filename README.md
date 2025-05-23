@@ -13,6 +13,13 @@ In this project, the goal was to create software that automatically classifies o
   <img src="VisualInspection/SampleImage.png" alt="Sample Output" width="400"/>
 </p>
 
+# MotionField
+In this project, the goal was to understand the motion of a moving camera in a feature-rich scene. I used OpenCV to detect useful features in each frame and then matched them from frame to frame (with a 5-frame buffer) using various OpenCV methods. I then visualized the movement by displaying the features and their trajectories. I also calculated the rotation matrices and translation vectors for each movement. An example image is shown below.
+
+<p align="center">
+  <img src="MotionField/Rotation.png" alt="Rotation" width="400"/>
+</p>
+
 # TimeToImpact
 In this project, a series of images were captured from a camera moving toward a spray can. The objective was to estimate the **time to impact**—the moment the camera would collide with the spray can.
 
