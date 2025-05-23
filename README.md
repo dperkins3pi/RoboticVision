@@ -17,7 +17,6 @@ In this project, the goal was to create software that automatically classifies o
 In this project, a series of images were captured from a camera moving toward a spray can. The objective was to estimate the **time to impact**—the moment the camera would collide with the spray can.
 
 To achieve this, I applied classical computer vision techniques:
--
 - Extracted key features from a reference image of the spray can
 - Matched these features across frames to locate the spray can in each image
 - Calculated a bounding box around the matched region in each frame
@@ -27,4 +26,11 @@ This approach provided a simple yet effective way to model motion and depth perc
 
 <p align="center">
   <img src="TimeToImpact/Features_Found/frame_17_all_features.jpg" alt="Sample Image" width="400"/>
+</p>
+
+# openCV_Intro
+This project was an intro to OpenCV. I learned how to use various openCV functions in real time, such as edge detection, line detection, corner detection, absolute difference, and contour maps. Also, I used these functions to detect images of a launched baseball.
+
+<p align="center">
+  <img src="openCV_Intro/EdgeDetection.png" alt="Edge Detection" width="400"/>
 </p>
