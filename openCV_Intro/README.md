@@ -13,4 +13,4 @@ I used contour maps to track a baseball in a sequence of frames.
 ![alt text](BasbeallTracked.png)
 
 For a video, use the link:
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Watch the video](https://youtu.be/_503ZX4dXfQ/0.jpg)](https://youtu.be/_503ZX4dXfQ)
