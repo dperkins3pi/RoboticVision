@@ -17,8 +17,12 @@ In this project, the goal was to create software that automatically classifies o
 In this project, I recorded a video of a camera moving around a picture frame and replaced the picture frame with a photo of Nacho Libre from the Internet. I clipped out the picture from from the video and used feature matching to find it in every frame. Then, I used a homography matrix to map an image of Nacho Libre onto the picture frame, in every frame of the video. After using interpolation to clean the noise, the resultant video shows the original picture frame being magically replaced by a photo of Nacho Libre, as if the picture frame was a tv screen.
 
 <p align="center">
-  <img src="Homography/NachoLibreOnWall.png" alt="Sample Output" width="400"/>
-  <img src="Homography/FeaturesMatched.png" alt="Feature Matching" width="400"/>
+  <a href="Homography/FeaturesMatched.png">
+    <img src="Homography/FeaturesMatched.png" width="400"/>
+  </a>
+  <a href="Homography/NachoLibreOnWall.png">
+    <img src="Homography/NachoLibreOnWall.png" width="400"/>
+  </a>
 </p>
 
 # MotionField
