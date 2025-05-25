@@ -13,6 +13,14 @@ In this project, the goal was to create software that automatically classifies o
   <img src="VisualInspection/SampleImage.png" alt="Sample Output" width="400"/>
 </p>
 
+# Homography
+In this project, I recorded a video of a camera moving around a picture frame and replaced the picture frame with a photo of Nacho Libre from the Internet. I clipped out the picture from from the video and used feature matching to find it in every frame. Then, I used a homography matrix to map an image of Nacho Libre onto the picture frame, in every frame of the video. After using interpolation to clean the noise, the resultant video shows the original picture frame being magically replaced by a photo of Nacho Libre, as if the picture frame was a tv screen.
+
+<p align="center">
+  <img src="Homography/NachoLibreOnWall.png" alt="Sample Output" width="400"/>
+  <img src="Homography/FeaturesMatched.png" alt="Feature Matching" width="400"/>
+</p>
+
 # MotionField
 In this project, the goal was to understand the motion of a moving camera in a feature-rich scene. I used OpenCV to detect useful features in each frame and then matched them from frame to frame (with a 5-frame buffer) using various OpenCV methods. I then visualized the movement by displaying the features and their trajectories. I also calculated the rotation matrices and translation vectors for each movement. An example image is shown below.
 
