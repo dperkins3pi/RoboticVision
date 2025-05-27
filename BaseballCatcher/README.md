@@ -19,6 +19,7 @@ The first step of the project was to calibrate a stereo system of cameras. I gat
 - Chess boards for the left camera
 - Chess boards for the right camera
 - Chess boards for both cameras
+
 The first two sets were used to find the intrinsic and distortion parameters of each individual camera. The last one was to find the extrinsic parameters (rotation matrix and translation vector) between the two cameras. (For more information, refer to the pdf [3DReconstruction.pdf](StereoCalibration/BaseballCatcher.pdf)
 
 After the images were captured, I used OpenCV to calibrate each image (similar to the Calibration project). I also used the function stereoCalibrate() to get the fundamental and essential matrices. Furthermore, I used the stereo calibration parameters to rectify each image, so that the epipolar lines are horizontal. An image showing the absolute differences after rectification is shown below:
