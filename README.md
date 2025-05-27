@@ -15,7 +15,7 @@ I built software to automatically track and catch a baseball. We caught 17/20 ba
 
 ![Tracking A Baseball With A Stereo System](BaseballCatcher/TrackingExample2.jpg)
 
-![Catching A Baseball With A Machine](BaseballCatcher/CatchingABaseball.jpg)
+[![Catching A Baseball With A Machine](BaseballCatcher/CatchingABaseball.jpg)](https://youtu.be/q1axb1CDXnk)
 
 
 # Human Pose Estimation (Final Project)
