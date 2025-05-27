@@ -1,6 +1,21 @@
 # RoboticVision
 Various computer vision projects from BYU's grad course ECEN 631: Robotic Vision. Projects use openCV for topics such as stereo calibration, catching a baseball, visual inspection, and more.
 
+**Human Pose Estimation**
+This project, inspired in-part by https://www.opencap.ai/, takes in a video (pre-recorded or live) of a person performing an athletic action (jumping jacks, jogging, squats, e.t.c.) and output the 3-D coordinates of the person's joints (ankle, knee, hip, nose, e.t.c.) during the movement. This will give us data that can be used in future research to better understand human motion during physical activity.
+
+The first step of the model is to use MediaPipe to take in a frame (from a video or live recording) and output the pixel coordinates of each joint, as shown below. An example video can be found at https://youtu.be/qfqO7u3DNLc
+
+<p align="center">
+  <img src="HumanPoseEstimation/2DPoseImage.png" alt="2D Coordinates" width="400"/>
+</p>
+
+The next goal of the project is to map the pixel coordinates of each joint into a 3-dimensional domain. Using the stereo calibration parameters, the 2D coordinates for each camera are mapped into a 3-dimensional domain. Then, the 3D coordinates are visualized in a plot. An example video for some of the results can be found at https://youtu.be/XuF4HiqkiD4?si=_tI-wUqVkcEOWXR9
+
+<p align="center">
+  <img src="HumanPoseEstimation/3DPoseImage.png" alt="3D Coordinates" width="400"/>
+</p>
+
 # Visual Inspection
 In this project, the goal was to create software that automatically classifies objects on a conveyer belt into three categories (Good, Bad, and Ugly) in real time. Specifically, we worked with Babybel cheese where "good" meant unopened, "bad" meant opened, and "ugly" meant partially eaten. We...
 
