@@ -2,7 +2,11 @@
 
 This respository performs Human Pose Estimation. Our project is inspired in-part by https://www.opencap.ai/, though none of their code is used. The end goal is to take in a video (pre-recorded or live) of a person performing an athletic action (jumping jacks, jogging, squats, e.t.c.) and output the 3-D coordinates of the person's joints (ankle, knee, hip, nose, e.t.c.) during the movement. This will give us data that can be used in future research to better understand human motion during physical activity.
 
-This code is based on Google's mediapipe https://ai.google.dev/edge/mediapipe/solutions/guide. The python library can be used to get 2-D coordinates of human joints in a frame. It only works for one human  at a time and works by finding the region of interest and passing the pixel values into a deep neural network. For more information about the indices of each joint, refer to https://roboflow.com/model/mediapipe.
+An example video using the OpenCap Software is below (at https://www.youtube.com/watch?v=9lfWcKHDAeM)
+
+[![Watch the video](OpenCapImage.png)](https://www.youtube.com/watch?v=9lfWcKHDAeM)
+
+Our code is based on Google's mediapipe https://ai.google.dev/edge/mediapipe/solutions/guide. The python library can be used to get 2-D coordinates of human joints in a frame. It only works for one human  at a time and works by finding the region of interest and passing the pixel values into a deep neural network. For more information about the indices of each joint, refer to https://roboflow.com/model/mediapipe.
 
 
 **Live 2-D Pose Estimation**
