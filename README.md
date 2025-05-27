@@ -2,7 +2,7 @@
 Various computer vision projects from BYU's grad course ECEN 631: Robotic Vision. Projects use openCV for topics such as stereo calibration, catching a baseball, visual inspection, and more.
 
 # Baseball Catcher
-I built software to automatically track and catch a baseball. We caught 17/20 balls—even when they were launched at nearly 60 mph! A video can be found at https://youtu.be/q1axb1CDXnk
+I built software to automatically track and catch a baseball. We caught 17/20 balls—even when they were launched at nearly 60 mph! A video can be found at https://youtu.be/q1axb1CDXnk and an in-depth description is at [BaseballCatcher.pdf](BaseballCatcher/LiveBaseballCatcher/BaseballCatcher.pdf)
 
 ⚡ The challenge? We had only a fraction of a second to detect, track, and predict the ball’s landing point.
 🔍 How it works:
