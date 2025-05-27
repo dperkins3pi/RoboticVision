@@ -1,23 +1,6 @@
 # RoboticVision
 Various computer vision projects from BYU's grad course ECEN 631: Robotic Vision. Projects use openCV for topics such as stereo calibration, catching a baseball, visual inspection, and more.
 
-# Baseball Catcher
-I built software to automatically track and catch a baseball. We caught 17/20 balls—even when they were launched at nearly 60 mph! A video can be found at https://youtu.be/q1axb1CDXnk
-
-⚡ The challenge? We had only a fraction of a second to detect, track, and predict the ball’s landing point.
-🔍 How it works:
- ✅ Stereo Vision Calibration: Calibrate a stereo camera system to determine the precise rotation and translation between the two cameras.
- 📸 Real-time Ball Detection: Capture images using the stereo system
- 🎯 Contour Mapping: Dynamically track the ball using a contout map on the absolute difference between images
- 🛠 3D Positioning: Map 2D pixel coordinates into 3D space using stereo calibration parameters.
- 📈 Trajectory Prediction: Apply a 2nd-degree polynomial interpolation to estimate the ball’s flight path.
- 🤖 Automated Catching: Position the catcher to intercept the ball at the predicted impact point.
-
-![Tracking A Baseball With A Stereo System](BaseballCatcher/TrackingExample2.jpg)
-
-![Catching A Baseball With A Machine](BaseballCatcher/CatchingABaseball.jpg)
-
-
 # Human Pose Estimation (Final Project)
 This project, inspired in-part by https://www.opencap.ai/, takes in a video (pre-recorded or live) of a person performing an athletic action (jumping jacks, jogging, squats, e.t.c.) and output the 3-D coordinates of the person's joints (ankle, knee, hip, nose, e.t.c.) during the movement. This will give us data that can be used in future research to better understand human motion during physical activity.
 
