@@ -1,7 +1,7 @@
 # RoboticVision
 Various computer vision projects from BYU's grad course ECEN 631: Robotic Vision. Projects use openCV for topics such as stereo calibration, catching a baseball, visual inspection, and more.
 
-**Human Pose Estimation**
+# Human Pose Estimation (Final Project)
 This project, inspired in-part by https://www.opencap.ai/, takes in a video (pre-recorded or live) of a person performing an athletic action (jumping jacks, jogging, squats, e.t.c.) and output the 3-D coordinates of the person's joints (ankle, knee, hip, nose, e.t.c.) during the movement. This will give us data that can be used in future research to better understand human motion during physical activity.
 
 The first step of the model is to use MediaPipe to take in a frame (from a video or live recording) and output the pixel coordinates of each joint, as shown below. An example video can be found at https://youtu.be/qfqO7u3DNLc
