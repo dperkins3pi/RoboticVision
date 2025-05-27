@@ -11,6 +11,11 @@ The first step of the model is to take in a frame (from a video or live recordin
 
 The coordinates will only be saved if write_output is set to true. A corresponding video will be saved at ``camera.mp4`` if save_video is set to true.
 
+An example video is found in the link (or image) below https://youtu.be/qfqO7u3DNLc
+
+[![Watch the video](2DPoseImage.png)](https://youtu.be/qfqO7u3DNLc)
+
+
 **3-D Pose Estimation**
 
 The next goal of the project is to map the pixel coordinates of each joint into a 3-dimensional domain. This requires the use of two cameras, in a stereo calibrated system. Calibration parameters are needed (intrinsic, extrinsic, and the rotation and translation between the cameras). 
@@ -34,7 +39,7 @@ Since the output can often be noisy, if you set smooth to True, the code will ap
 
 Setting save_video to true will save a video of the output within the directory of the coordinate files. This code is not optimized at all to save the video and runs quite slowly. This is because the each frame in the video is a new initailization of the plot. To make this quicker, it is recommended to replace the current code with matplotlib's FuncAnimation library.
 
-An example video for some of the results can be found with the link below
+An example video for some of the results can be found by selecting the image below or using the link https://youtu.be/XuF4HiqkiD4?si=_tI-wUqVkcEOWXR9
 
 [![Watch the video](3DPoseImage.png)](https://youtu.be/XuF4HiqkiD4?si=_tI-wUqVkcEOWXR9)
 
