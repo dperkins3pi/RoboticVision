@@ -73,6 +73,13 @@ For this task, the goal was to classify various fish species and oyster shells. 
   <img src="ImageClassification/conf_mat_fish.png" alt="Confusion Matrix" width="400"/>
 </p>
 
+# Calibration
+In this project, the goal was to learn how to calibrate a camera. In other words, the goal was to learn how to ge the intrinsic and extrinsic parameters of any given camera. Given various photos of a chessboard, I found the locations of the corners and used them to find the calibration parameters. For more information, refer to [Calibration.pdf](Calibration/Calibration.pdf)
+
+<p align="center">
+  <img src="Calibration/task1.png" alt="Edge Detection" width="400"/>
+</p>
+
 # openCV_Intro
 This project was an intro to OpenCV. I learned how to use various openCV functions in real time, such as edge detection, line detection, corner detection, absolute difference, and contour maps. Also, I used these functions to detect images of a launched baseball.
 
